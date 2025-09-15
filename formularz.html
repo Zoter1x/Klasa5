@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularz trudny</title>
+        <style>
+            th,tr,td{
+                border: 1px solid black;
+                padding: 5px;
+            }
+            #gora{
+                background-color: yellow;
+                color: red;
+            }
+            td{
+                background-color: aqua;
+            }
+            #przyciski{
+                text-align: center;
+            }
+            .buton{
+                margin-left:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr><th id="gora" colspan="4">Registration form</th></tr>
+                <tr><td><label>Enter Name</label></td><td colspan="3"><input type="text" id="imie" name="imie"></td></tr>
+                <tr><td><label>Enter Password</label></td><td colspan="3"><input type="password" id="pass" name="pass"></td></tr>
+                <tr><td><label>Enter Address</label></td><td colspan="3"><textarea name="adres"></textarea></td></tr>
+                <tr><td><label>Select Game</label></td>
+                    <td colspan="3">
+                        <input type="checkbox" name="gra" value="Hockey"><label>Hockey</label><br>
+                        <input type="checkbox" name="gra" value="Football"><label>Football</label><br>
+                        <input type="checkbox" name="gra" value="Badminton"><label>Badminton</label><br>
+                        <input type="checkbox" name="gra" value="Cricket"><label>Cricket</label><br>
+                        <input type="checkbox" name="gra" value="Volleyball"><label>Volleyball</label><br>
+                    </td></tr>
+                <tr><td><label>Gender</label></td><td colspan="3"><input type="radio" name="radioo" value="Male"><label>Male</label><input type="radio" name="radioo" value="Female"><label>Female</label></td></tr>
+                <tr><td><label>Select ur age</label></td>
+                    <td colspan="3">
+                        <select name="wiek">
+                            <option>0-6</option>
+                            <option>6-12</option>
+                            <option>12-18</option>
+                            <option>18+</option>
+                        </select>
+                    </td></tr>
+                <tr><td><label>Select photo</label></td><td colspan="3"><input type="file" id="plik" name="plik"></td></tr>
+                <tr><td colspan="4" id="przyciski"><input type="button" value="Click me" class="buton"><input type="reset" class="buton"><input type="submit" value="Submit Form" class="buton"></td></tr>
+            </table>    
+        </form>
+    </body>
+</html>
