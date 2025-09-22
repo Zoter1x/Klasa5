@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gridowanie strony</title>
+        <style>
+            .kontener{
+                display: grid;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 100px 100px;
+                gap:10px;
+                align-items:center;
+                justify-items:center;
+            }
+            div{
+                text-align: center;
+                padding: 25px;
+            }
+            #d1{
+                border:2px solid blue;
+            }
+            #d2{
+                border: 2px solid violet;
+            }
+            #d3{
+                border:2px solid red;
+            }
+            #d4{
+                border: 2px solid chocolate;
+            }
+            #d5{
+                border: 2px solid black;
+            }
+            #d6{
+                border: 2px solid darkgreen;
+            }
+            .gora{
+                grid-row: 1;
+            }
+            .dol{
+                grid-row: 2;
+            }
+            .c1{
+                grid-column: 1;
+            }
+            .c2{
+                grid-column: 2;
+            }
+            .c3{
+                grid-column: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="kontener">
+            <div id="d1" class="gora" class="c1">1</div>
+            <div id="d2" class="gora" class="c2">2</div>
+            <div id="d3" class="gora" class="c3">3</div>
+            <div id="d4" class="dol" class="c1">4</div>
+            <div id="d5" class="dol" class="c2">5</div>
+            <div id="d6" class="dol" class="c3">6</div>
+        </div>
+    </body>
+</html>
