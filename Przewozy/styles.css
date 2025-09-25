@@ -1,0 +1,55 @@
+            body{
+                text-align: center;
+                background-color: #FFCC99;
+                font-family: Garamond;
+                width: 100%;
+            }
+            header,footer{
+                background-color: darkgreen;
+                color: white;
+                padding: 30px;
+                font-size: 140%;
+            }
+            main{
+                display: flex;
+            }
+            #lewa{
+                display: flex;
+                width: 70%;
+                flex-direction: column;
+                height: 500px;
+            }
+            table{
+                border: 1px dashed darkgreen;
+                width: 40%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                justify-self: center;
+                align-self: center;
+            }
+            th,td{
+                padding: 5px;
+            }
+            a{
+                color: white;
+            }
+            ul{
+                list-style-type: circle;
+            }
+            tr:hover{
+                background-color: darkgreen;
+                color: white;
+            }
+            nav{
+                background-color: mediumseagreen;
+                padding: 20px;
+            }
+            nav a{
+                margin-left: 90px;
+            }
+            #prawa{
+                background-color: mediumseagreen;
+                width: 30%;
+                height: 500px;
+                text-align: left;
+            }
