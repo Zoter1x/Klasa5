@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Padding</title>
+        <style>
+            #za1{
+                background-color: black;
+                padding-top: 30px;
+                padding-bottom: 100px;
+                padding-right: 50px;
+                padding-left: 70px;
+                color:yellowgreen;
+                width: 200px;
+            }
+            #za2{
+                background-color:chocolate;
+                padding: 50px 100px;
+                width: 200px;
+            }
+            section{
+                color: black;
+                width: 300px;
+            }
+            section div{
+                background-color: gray;
+            }
+            #el1{
+                padding: 30px;
+                width: 60px;
+            }
+            #el2{
+                margin: 30px;
+                width: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="za1"><p>Zadanie1</p></div>
+        <div id="za2">
+            <p>
+                1 wartość - wszystkie strony<br>
+                2 wartości  - góra/dół, prawo/lewo<br>
+                3 wartości - góra, prawo/lewo, dół<br>
+                4 wartości - góra, prawo, dół, lewo
+            </p>
+        </div>
+        <section>
+            <div id="el1"><p>Padding</p></div>
+            <div id="el2"><p>Margin</p></div>
+        </section>
+    </body>
+</html>
