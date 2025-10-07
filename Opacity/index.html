@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Przezroczystość</title>
+        <style>
+            img{
+                height: 150px;
+                width: 150px;
+            }
+            #sad{
+                opacity: 0.6;
+            }
+            #sad:hover{
+                opacity: 1;
+            }
+            div{
+                display: flex;
+            }
+            div img{
+                opacity: 0.5;
+            }
+            div img:hover{
+                opacity: 1;
+            }
+            button{
+                opacity: 0.8;
+            }
+            button:hover{
+                opacity: 1;
+                cursor: pointer;
+            }
+        </style>
+    </head> 
+    <body>
+        <img id="sad" src="sad.jpg">
+        <div>
+            <img src="auta.jpg">
+            <img src="peruwianka.jpg">
+            <img src="waga.jpg">
+        </div>
+        <button>Click me!</button>
+    </body>
+</html>
