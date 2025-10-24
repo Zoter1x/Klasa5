@@ -1,0 +1,38 @@
+*{
+    font-family: 'Comic Sans MS',sans-serif;
+    text-align: center;
+}
+nav,footer{
+    background-color: #00838F;
+    color: #B2DFDB;
+    padding: 10px;
+}
+main{
+    height: 600px;
+}
+aside,section{
+    width: 50%;
+    height: 600px;
+    overflow: visible;
+}
+aside{
+    background-color: #B2DFDB;
+}
+img{
+    float: right;
+    border-radius: 30px;
+    margin: 7px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    color:#B2DFDB;
+    text-decoration: none;
+    margin-left: 50px;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
