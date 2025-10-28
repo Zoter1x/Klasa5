@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+    font-family: Georgia;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header,footer{
+    background-color: tomato;
+    color: mistyrose;
+    padding: 10px;
+}
+nav{
+    float: left;
+    width: 20%;
+}
+div{
+    height: 170px;
+    font-size: 200%;
+}
+.sniewyb{
+    display: none;
+}
+.swyb{
+    display: inline;
+}
+.niewyb{
+    background-color: #FFAEA5;
+}
+.wyb{
+    background-color: mistyrose;
+}
+main{
+    background-color: mistyrose;
+    width: 80%;
+    height: 510px;
+    overflow: auto;
+}
+table{
+    margin: auto;
+    width: 60%;
+    border: 1px dashed indigo;
+}
+select,#szuk{
+    margin: 20px;
+}
+dt{
+    font-style: italic;
+    font-weight: bold;
+}
+dt:hover{
+    font-size: 180%;
+}
