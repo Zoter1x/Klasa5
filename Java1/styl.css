@@ -1,0 +1,51 @@
+html{
+    background-color: #EEEEEE;
+    font-family: Helvetica;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+#logo,nav{
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+    padding: 10px 0;
+}
+nav{
+    float: right;
+}
+#logo{
+    float: left;
+}
+#baner{
+    background-color: #DDDDDD;
+    height: 200px;
+    clear: both;
+}
+main{
+    clear: both;
+    color: navy;
+    height: 400px;
+    margin: 50px;
+}
+footer{
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px 0;
+}
+button{
+    background-color: lightblue;
+    color: Navy;
+}
+nav a{
+    color: Navy;
+    size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+nav a:hover{
+    border: 1px solid Navy;
+}
